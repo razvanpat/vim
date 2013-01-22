@@ -162,6 +162,7 @@ set guioptions-=r
 set guioptions-=b
 
 " Set color and font
+set t_Co=256
 color twilight256
 set guifont=Courier\ 10\ Pitch
 
