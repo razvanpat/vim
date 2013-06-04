@@ -163,8 +163,10 @@ set guioptions-=b
 
 " Set color and font
 set t_Co=256
-color twilight256
-set guifont=Courier\ 10\ Pitch
+color twilight
+
+"set guifont=Courier\ 10\ Pitch
+set guifont=DejaVu\ Sans\ Mono\ 8
 
 " Map quick buffer cycling
 :nnoremap <C-n> :bnext<CR>:redraw<CR>:ls<CR>
